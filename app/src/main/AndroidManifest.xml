@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.roostera.apps.loginversion1.activities.LoginActivity" android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name=".activities.SignupActivity"
+            android:theme="@style/AppTheme.Dark">
+        </activity>
     </application>
 
 </manifest>
